@@ -38,7 +38,7 @@ function Banner() {
           </div>
         </div>
         <div className="image mt-5 sm:mt-0 w-full flex sm:ms-36 justify-start">
-          <img src='./src/components/photo.jpg' className='hero-img rounded-full w-full sm:w-1/2 md:w-1/2 bg-cover' alt="" />
+          <img src='https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/passport/1-change1.jpg' className='hero-img  w-full sm:w-1/2 md:w-1/2 bg-cover' alt="" />
         </div>
       </div>
         <div className="tech-stack  sm:flex text-center sm:ps-40 md:ps-72 sm:pt-32 bg-gray-100 py-10 pt-10">
