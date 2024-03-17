@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <>
-     <div className="h-20 pt-5 sm:pt-0 px-20  items-center shadow-lg main sm:flex sm:justify-between">
+     <div className="h-20 sticky top-0 z-50 bg-white pt-5 sm:pt-0 px-20  items-center shadow-lg main sm:flex sm:justify-between">
         <div className="left">
             <h1 className='text-2xl font-bold hover:text-blue-400 cursor-pointer'>Mehul Pal</h1>
         </div>
