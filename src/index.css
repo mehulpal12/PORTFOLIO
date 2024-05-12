@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 
 
 .hero-img{
@@ -11,12 +11,16 @@
     background-repeat: no-repeat;
     background-size: auto;
     border: 3px solid #2d2e32;
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    height: 20rem;
+    border-radius: 10%;
+    height: 16rem;
     position: relative;
     transition: all 1s ease-in-out;
+} */
+.imgg{
+    width: 40rem !important; 
 }
-@keyframes morph {
+
+/* @keyframes morph {
     0% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
@@ -26,7 +30,7 @@
     100% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
-} 
+}  */
 *{
     box-sizing: border-box;
 }
@@ -48,11 +52,6 @@
         left:30rem;
         width: 15rem;
         overflow: hidden;
-    }
-    @media screen and (max-width: 640px){
-        .img-span{
-            
-        }
     }
     .img-span img{
         -webkit-animation: rotate 9s linear infinite;

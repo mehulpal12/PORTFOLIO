@@ -23,29 +23,33 @@ function Banner() {
 
   return (
     <>
-      <div className="main px-12 md:pt-16 md:flex bg-gray-100 items-center">
-        <div className="text flex justify-center md:justify-end w-full">
-          <div className='md:w-3/5 '>
+      <div className="main md:px-40 px-16 md:pt-12 md:flex bg-gray-100 items-center " id='home'>
+        <div className="text flex justify-center md:justify-end ">
+          <div className='md:w-0.5/2 '>
             <h3 className='text-3xl font-semibold'>Hi, I am</h3>
             <h1 className='my-2 text-5xl font-bold'>Mehul Pal</h1>
             <h2 className='text-3xl '>A <span ref={el}></span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora fuga expedita aut sunt illum odit aliquam magnam. Adipisci, dolor exercitationem.</p>
+            <p>Hi, I'm Mehul Pal. A passionate Front-end React Developer based in Delhi, India📍.</p>
             <br />
             <div className="icons flex">
+              <a href="https://www.linkedin.com/in/mehul-pal-3ab6891b2/">
               <CiLinkedin className='text-4xl cursor-pointer'/>
-              <LuGithub className='text-3xl mt-1 mx-5 cursor-pointer'/>
+              </a>
+              <a href='https://github.com/mehulpal12'>
+              <LuGithub className='text-3xl mt-1 mx-5 cursor-pointer' />
+              </a>
             </div>
           </div>
         </div>
-        <div className="image mt-5 sm:mt-0 w-full flex sm:ms-36 justify-start">
-          <img src='https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/passport/1-change1.jpg' className='hero-img  w-full sm:w-1/2 md:w-1/2 bg-cover' alt="" />
+        <div className="image sm:mt-0  w-2/2  flex sm:ms-36 ps-2   justify-start">
+          <img src='./src/components/photo.webp' className=' imgg sm:w-1/2  md:w-1/2 mt-2  bg-cover' alt="" />
         </div>
       </div>
-        <div className="tech-stack  sm:flex text-center sm:ps-40 md:ps-72 sm:pt-32 bg-gray-100 py-10 pt-10">
+        <div className="tech-stack  sm:flex text-center sm:ps-40 md:ps-72 sm:pt-32 bg-gray-100 py-10 pt-10" id='skill'>
           <div className="text-xl font-semibold mt-2 mx-10 text-gray-700">
             <h1>Tech-Stack ||</h1>
           </div>
-          <div className="grid mt-5 sm:mt-0 ps-10 sm:ps-0 grid-cols-2 place-content-center sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <div className="grid mt-5 sm:mt-0 ps-10 sm:ps-0 grid-cols-2 place-content-center sm:grid-cols-3 md:grid-cols-4 gap-4" >
             <div>
               <img src="https://skillicons.dev/icons?i=html,css" className='cursor-pointer' alt="" />
             </div>

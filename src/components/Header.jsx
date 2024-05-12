@@ -4,17 +4,16 @@ import { BeakerIcon, Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24
 
 function Header() {
     let [menulinks,setMenulinks] = useState([
-        { name: "Home", link: "/home" },
-        { name: "Skill", link: "/skill" },
-        { name: "About", link: "/about" },
-        { name: "Contact", link: "/contact" },
-        { name: "Portfolio", link: "/porfolio" },
+        { name: "Home", link: "#home" },
+        { name: "Skill", link: "#skill" },
+        { name: "About", link: "#about" },
+        { name: "Contact", link: "#contact" },
     ]);
   const [nav, setnav] = useState(false);
 
   return (
     <>
-     <div className="h-20 sticky top-0 z-50 bg-white pt-5 sm:pt-0 px-20  items-center shadow-lg main sm:flex sm:justify-between">
+     <div className="h-16 sticky top-0 z-50 bg-white pt-5 sm:pt-0 px-16  items-center shadow-lg main sm:flex sm:justify-between">
         <div className="left">
             <h1 className='text-2xl font-bold hover:text-blue-400 cursor-pointer'>Mehul Pal</h1>
         </div>
