@@ -17,8 +17,8 @@ function About() {
             <p className='text-blue-600 font-bold text-md'>ABOUT ME</p>
             <h1 className='text-2xl font-semibold'>Front-end Developer <br />
             based on delhi,India📍</h1>
-            <p className='py-5 text-gray-500 text-md'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt ipsa voluptates architecto corrupti consequuntur itaque sapiente similique maiores perferendis</p>
-            <p className='text-gray-500 text-md'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt ipsa voluptates architecto corrupti consequuntur itaque sapiente similique maiores perferendis </p>
+            <p className='py-5 text-gray-500 text-md'>Hey, my name is Mehul Pal, and I'm a Frontend Developer.My passion is to create and develop a clean UI/UX for my users.</p>
+            <p className='text-gray-500 text-md'> My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.</p>
         </div>
       </div>
     </>
