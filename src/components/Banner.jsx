@@ -42,7 +42,7 @@ function Banner() {
           </div>
         </div>
         <div className="image sm:mt-0  w-2/2  flex sm:ms-36 ps-2   justify-start">
-          <img src='./src/components/photo.webp' className=' imgg sm:w-1/2  md:w-1/2 mt-2  bg-cover' alt="" />
+          <img src='https://cdn.pixabay.com/photo/2024/05/02/09/16/web-development-8734249_640.png' className=' imgg sm:w-1/2  md:w-1/2 mt-2  bg-cover' alt="" />
         </div>
       </div>
         <div className="tech-stack  sm:flex text-center sm:ps-40 md:ps-72 sm:pt-32 bg-gray-100 py-10 pt-10" id='skill'>
